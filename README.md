@@ -12,7 +12,7 @@ func main() {
 }
 ```
 
-The above program will simply print the phrase "hello, world".
+The above program will simply print the phrase "hello, world!".
 
 Development
 --
