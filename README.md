@@ -7,12 +7,12 @@ Hello World is a golang package which returns `hello, world`:
 import "github.com/zeebox/hello-world-poc"
 
 func main() {
-    h := helloworld.String
-    print(h)
+       h := helloworld.String()
+       print(h)
 }
 ```
 
-The above program will simply print the phrase "hello, world".
+The above program will simply print the phrase "hello, world!".
 
 Development
 --
