@@ -7,8 +7,8 @@ Hello World is a golang package which returns `hello, world`:
 import "github.com/zeebox/hello-world-poc"
 
 func main() {
-	h := helloworld.String
-	print(h)
+       h := helloworld.String()
+       print(h)
 }
 ```
 
