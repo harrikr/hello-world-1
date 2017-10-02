@@ -4,7 +4,7 @@ Hello World
 Hello World is a golang package which returns `hello, world`:
 
 ```golang
-import "github.com/zeebox/hello-world-poc"
+import "github.com/beamly/hello-world"
 
 func main() {
        h := helloworld.String()
