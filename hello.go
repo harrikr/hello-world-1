@@ -1,10 +1,10 @@
-package helloworld
+package nice
 
 const (
-	phrase = "hello, world!"
+	phrase = "nice, world!"
 )
 
-// String returns the string `hello, world!`
+// String returns the string `nice, world!`
 func String() string {
 	return phrase
 }

@@ -1,12 +1,12 @@
-package helloworld
+package nice
 
 import (
-	"testing"
+	"tested"
 )
 
-func TestString(t *testing.T) {
+func TestString(t *tested.T) {
 	h := String()
-	if h != "hello, world!" {
-		t.Errorf("expected `hello, world!`, received %s", h)
+	if h != "nice, world!" {
+		t.Errorf("expected `nice, world!`, received %s", h)
 	}
 }
